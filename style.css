@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin:  0;
+    padding: 0;
+}
+
+body {
+    background: teal;
+    width: 70%;
+    margin: auto;
+    
+}
+p {
+    color: #666;
+}
+header {
+    background: #ededed;
+    height: 150px;
+    padding: 20px;
+}
+.header-left {
+    width: 50%;
+    float: left;
+
+}
+.header-left div {
+   display: inline-block;
+
+}
+.header-left img {
+    width: 115px;
+    height: 115px;
+    float: left;
+    border-radius: 50%;
+    
+}
+
+.header-left div h2 {
+    color: #222;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.header-left div h3 {
+    color: #222;
+    padding-left: 75px;
+     padding-top: 5px;
+}
+
+.header-right {
+    width: 50%;
+    float: left;
+    text-align: right;
+    padding: 20px;
+
+}
+
+.header-right div {
+    text-align: left;
+    display: inline-block;
+}
+.header-right div a {
+    text-decoration: none;
+    color: #666;
+}
+.cv-content {
+    background: #f3f3f3;
+    padding: 20px;
+}
+
+.row {
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid teal;
+    overflow: hidden;
+}
+.row:last-child {
+    padding-bottom: none;
+    border: none;
+}
+.row .colum-left {
+    width: 30%;
+    float: left;
+
+}
+.row .colum-left h2 {
+    color: #333;
+    font-size: 20px;
+    font-style: italic;
+}
+.row .colum-right {
+     width: 60%;
+    float: left;
+    padding-left: 20px;
+
+}
+
+.row .colum-right .skill-colum {
+    width: 33%;
+    float: left;
+}
+.row .colum-right form input {
+    display: block;
+}
+.row .colum-right form textarea {
+    width: 33%;
+    height: 80px;
+
+}
+
+.row .colum-right form label {
+    display: block;
+}
+.row .colum-right form input[type="submit"] {
+    width: 33%;
+    height: 20px;
+    background-color: teal;
+    color: white;
+    border:2px solid seagreen;
+}
+
+.row .colum-right form input[type="submit"]:hover {
+    background-color: white;
+    color: black;
+}
+h5 {
+    color: #333;
+    
+    
+}h3 {
+    color: #333;
+    
+    
+}
+h4 {
+    color: #333333;
+    
+}
+h6 {
+    color: #666;
+    font-style: italic;
+    
+}
